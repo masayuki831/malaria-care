@@ -1,0 +1,38 @@
+name: 不具合の報告
+description: 動作や表示について報告します
+title: "[不具合] "
+body:
+  - type: markdown
+    attributes:
+      value: 個人情報・健康情報や実際のバックアップは添付しないでください。
+  - type: input
+    id: version
+    attributes:
+      label: アプリのバージョン
+      placeholder: "0.8"
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: 機種とOS
+      placeholder: "例：Pixel 6a / Android 17"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 発生する操作
+      description: どの画面で何を押したかを順に記載してください。
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: 実際に起きたこと
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 期待していた動作

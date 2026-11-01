@@ -1,0 +1,29 @@
+name: Check iOS device build (unsigned)
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: macos-15
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.47.9'
+          channel: stable
+          cache: true
+      - run: flutter config --enable-swift-package-manager
+      - run: flutter pub get --enforce-lockfile
+      - run: flutter build ios --release --no-codesign
+      - name: Archive unsigned app (not installable on an iPhone)
+        run: ditto -c -k --sequesterRsrc --keepParent build/ios/iphoneos/Runner.app MalariaCare-iOS-UNSIGNED.zip
+      - uses: actions/upload-artifact@v4
+        with:
+          name: MalariaCare-iOS-UNSIGNED-not-for-installation
+          path: MalariaCare-iOS-UNSIGNED.zip
+          if-no-files-found: error
+          retention-days: 14

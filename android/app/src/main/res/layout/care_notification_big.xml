@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical"
+ android:padding="8dp" android:background="@android:color/transparent">
+ <TextView style="@style/TextAppearance.Compat.Notification.Title" android:id="@+id/care_title" android:layout_width="match_parent" android:layout_height="wrap_content"
+  android:textSize="16sp" android:textStyle="bold" android:maxLines="2"/>
+ <TextView style="@style/TextAppearance.Compat.Notification.Line2" android:id="@+id/care_body" android:layout_width="match_parent" android:layout_height="wrap_content"
+  android:layout_marginTop="4dp" android:textSize="14sp" android:maxLines="2"/>
+ <LinearLayout android:layout_width="match_parent" android:layout_height="48dp" android:layout_marginTop="10dp" android:orientation="horizontal">
+  <Button android:id="@+id/care_primary" android:layout_width="0dp" android:layout_weight="1" android:layout_height="match_parent"
+   android:minWidth="0dp" android:minHeight="48dp" android:paddingHorizontal="12dp" android:textSize="14sp" android:textStyle="bold"
+   android:textAllCaps="false" android:textColor="#FFFFFF" android:backgroundTint="#186653" android:background="@drawable/care_notification_primary"/>
+  <Button android:id="@+id/care_secondary" android:layout_width="0dp" android:layout_weight="1" android:layout_height="match_parent" android:layout_marginStart="8dp"
+   android:minWidth="0dp" android:minHeight="48dp" android:paddingHorizontal="12dp" android:textSize="14sp" android:textStyle="bold"
+   android:textAllCaps="false" android:textColor="#234F41" android:backgroundTint="#E5EFEA" android:background="@drawable/care_notification_secondary"/>
+ </LinearLayout>
+</LinearLayout>

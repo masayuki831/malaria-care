@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:layout_width="match_parent" android:layout_height="48dp" android:orientation="horizontal"
+ android:gravity="center_vertical" android:paddingVertical="2dp" android:paddingHorizontal="4dp" android:background="@android:color/transparent">
+ <TextView style="@style/TextAppearance.Compat.Notification.Title" android:id="@+id/care_summary" android:layout_width="0dp" android:layout_weight="1" android:layout_height="match_parent"
+  android:gravity="center_vertical" android:maxLines="2" android:ellipsize="end" android:textSize="12sp" android:paddingEnd="8dp"/>
+ <Button android:id="@+id/care_primary" android:layout_width="wrap_content" android:layout_height="44dp"
+  android:minWidth="72dp" android:minHeight="44dp" android:paddingHorizontal="12dp" android:textSize="12sp" android:textStyle="bold"
+  android:textAllCaps="false" android:textColor="#FFFFFF" android:backgroundTint="#186653" android:background="@drawable/care_notification_primary"/>
+ <Button android:id="@+id/care_secondary" android:layout_width="wrap_content" android:layout_height="44dp" android:layout_marginStart="8dp"
+  android:minWidth="88dp" android:minHeight="44dp" android:paddingHorizontal="12dp" android:textSize="12sp" android:textStyle="bold"
+  android:textAllCaps="false" android:textColor="#234F41" android:backgroundTint="#E5EFEA" android:background="@drawable/care_notification_secondary"/>
+</LinearLayout>

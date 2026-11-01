@@ -1,0 +1,18 @@
+{
+  "public_version": "0.8",
+  "android_version_name": "0.8.0",
+  "android_build_number": 15,
+  "android_apk_sha256": "f082a58d51c1041e347192c17df2519b4af9d6dc400076f201d0cedc3af2aaa4",
+  "flutter_sdk": "3.47.9",
+  "dart_sdk": "3.13.7",
+  "source_tests_passed": 148,
+  "ios_platform_tests_passed": 4,
+  "source_static_analysis": "PASS",
+  "ios_configuration_validation": "PASS",
+  "github_actions_executed": false,
+  "ios_xcode_build_executed": false,
+  "ios_signed_application_created": false,
+  "license_file": "LICENSE.md",
+  "license_version": "1.0",
+  "notes": "Android APK is the unchanged previously verified 0.8 release. Repository adds iOS preparation; no Android APK rebuild was performed."
+}

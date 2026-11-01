@@ -1,0 +1,123 @@
+# 第三者ソフトウェアとフォント
+
+本プロジェクト独自の部分には[Malaria Care利用条件](LICENSE.md)を適用します。第三者のライセンスを本プロジェクト全体へ適用したものではなく、独自条件によって第三者部分のライセンス上の権利を制限しません。
+
+通知ライブラリはflutter_local_notifications 22.3.3のローカル修正版です。元のBSD 3-Clauseライセンスをvendor/fln/LICENSEに保持し、変更点をvendor/fln/MALARIA_CARE_PATCH.mdに記録しています。日本語フォントは同梱のSIL Open Font License原文を保持しています。
+
+pubspec.lockに記録された依存物のライセンス原文を以下へ収録しています。SDK依存はFlutter SDKの原文を参照します。依存を更新した場合は、この一覧も更新してください。
+
+| パッケージ | バージョン | ライセンス原文 |
+|---|---|---|
+| android_file_picker | 2.1.2 | [原文](third_party/licenses/android_file_picker-2.1.2.txt) |
+| archive | 4.5.2 | [原文](third_party/licenses/archive-4.5.2.txt) |
+| args | 2.7.0 | [原文](third_party/licenses/args-2.7.0.txt) |
+| async | 2.13.1 | [原文](third_party/licenses/async-2.13.1.txt) |
+| barcode | 2.2.9 | [原文](third_party/licenses/barcode-2.2.9.txt) |
+| bidi | 2.0.13 | [原文](third_party/licenses/bidi-2.0.13.txt) |
+| boolean_selector | 2.1.2 | [原文](third_party/licenses/boolean_selector-2.1.2.txt) |
+| characters | 1.4.1 | [原文](third_party/licenses/characters-1.4.1.txt) |
+| clock | 1.1.3 | [原文](third_party/licenses/clock-1.1.3.txt) |
+| code_assets | 1.2.1 | [原文](third_party/licenses/code_assets-1.2.1.txt) |
+| collection | 1.19.1 | [原文](third_party/licenses/collection-1.19.1.txt) |
+| cross_file | 0.3.5+5 | [原文](third_party/licenses/cross_file-0.3.5+5.txt) |
+| crypto | 3.0.8 | [原文](third_party/licenses/crypto-3.0.8.txt) |
+| dbus | 0.8.0 | [原文](third_party/licenses/dbus-0.8.0.txt) |
+| equatable | 3.0.0 | [原文](third_party/licenses/equatable-3.0.0.txt) |
+| fake_async | 1.3.3 | [原文](third_party/licenses/fake_async-1.3.3.txt) |
+| ffi | 2.2.0 | [原文](third_party/licenses/ffi-2.2.0.txt) |
+| ffi_leak_tracker | 0.1.2 | [原文](third_party/licenses/ffi_leak_tracker-0.1.2.txt) |
+| file | 7.0.1 | [原文](third_party/licenses/file-7.0.1.txt) |
+| file_picker | 13.3.0 | [原文](third_party/licenses/file_picker-13.3.0.txt) |
+| file_picker_darwin | 2.4.0 | [原文](third_party/licenses/file_picker_darwin-2.4.0.txt) |
+| file_picker_linux | 2.0.2 | [原文](third_party/licenses/file_picker_linux-2.0.2.txt) |
+| file_picker_platform_interface | 4.2.0 | [原文](third_party/licenses/file_picker_platform_interface-4.2.0.txt) |
+| file_picker_web | 4.2.0 | [原文](third_party/licenses/file_picker_web-4.2.0.txt) |
+| fixnum | 1.1.1 | [原文](third_party/licenses/fixnum-1.1.1.txt) |
+| flutter | 0.0.0 | [原文](third_party/licenses/Flutter-SDK-LICENSE.txt) |
+| flutter_email_sender | 11.2.0 | [原文](third_party/licenses/flutter_email_sender-11.2.0.txt) |
+| flutter_email_sender_linux | 1.0.0 | [原文](third_party/licenses/flutter_email_sender_linux-1.0.0.txt) |
+| flutter_email_sender_method_channel | 2.0.1 | [原文](third_party/licenses/flutter_email_sender_method_channel-2.0.1.txt) |
+| flutter_email_sender_platform_interface | 1.1.0 | [原文](third_party/licenses/flutter_email_sender_platform_interface-1.1.0.txt) |
+| flutter_email_sender_web | 1.0.1 | [原文](third_party/licenses/flutter_email_sender_web-1.0.1.txt) |
+| flutter_email_sender_windows | 1.0.0 | [原文](third_party/licenses/flutter_email_sender_windows-1.0.0.txt) |
+| flutter_local_notifications | 22.3.3 | [原文](third_party/licenses/flutter_local_notifications-22.3.3.txt) |
+| flutter_local_notifications_linux | 8.0.2 | [原文](third_party/licenses/flutter_local_notifications_linux-8.0.2.txt) |
+| flutter_local_notifications_platform_interface | 12.2.0 | [原文](third_party/licenses/flutter_local_notifications_platform_interface-12.2.0.txt) |
+| flutter_local_notifications_web | 1.0.0 | [原文](third_party/licenses/flutter_local_notifications_web-1.0.0.txt) |
+| flutter_local_notifications_windows | 3.1.1 | [原文](third_party/licenses/flutter_local_notifications_windows-3.1.1.txt) |
+| flutter_localizations | 0.0.0 | [原文](third_party/licenses/Flutter-SDK-LICENSE.txt) |
+| flutter_test | 0.0.0 | [原文](third_party/licenses/Flutter-SDK-LICENSE.txt) |
+| flutter_timezone | 5.1.1 | [原文](third_party/licenses/flutter_timezone-5.1.1.txt) |
+| flutter_web_plugins | 0.0.0 | [原文](third_party/licenses/Flutter-SDK-LICENSE.txt) |
+| hooks | 2.0.2 | [原文](third_party/licenses/hooks-2.0.2.txt) |
+| http | 1.6.0 | [原文](third_party/licenses/http-1.6.0.txt) |
+| http_parser | 4.1.2 | [原文](third_party/licenses/http_parser-4.1.2.txt) |
+| image | 4.12.0 | [原文](third_party/licenses/image-4.12.0.txt) |
+| intl | 0.20.3 | [原文](third_party/licenses/intl-0.20.3.txt) |
+| jni | 1.1.1 | [原文](third_party/licenses/jni-1.1.1.txt) |
+| jni_flutter | 1.0.4+1 | [原文](third_party/licenses/jni_flutter-1.0.4+1.txt) |
+| jni_util | 1.0.0 | [原文](third_party/licenses/jni_util-1.0.0.txt) |
+| leak_tracker | 11.0.2 | [原文](third_party/licenses/leak_tracker-11.0.2.txt) |
+| leak_tracker_flutter_testing | 3.0.10 | [原文](third_party/licenses/leak_tracker_flutter_testing-3.0.10.txt) |
+| leak_tracker_testing | 3.0.2 | [原文](third_party/licenses/leak_tracker_testing-3.0.2.txt) |
+| logging | 1.3.0 | [原文](third_party/licenses/logging-1.3.0.txt) |
+| matcher | 0.12.20 | [原文](third_party/licenses/matcher-0.12.20.txt) |
+| material_color_utilities | 0.13.0 | [原文](third_party/licenses/material_color_utilities-0.13.0.txt) |
+| meta | 1.18.3 | [原文](third_party/licenses/meta-1.18.3.txt) |
+| mime | 2.1.0 | [原文](third_party/licenses/mime-2.1.0.txt) |
+| objective_c | 9.5.0 | [原文](third_party/licenses/objective_c-9.5.0.txt) |
+| package_config | 3.0.0 | [原文](third_party/licenses/package_config-3.0.0.txt) |
+| path | 1.9.1 | [原文](third_party/licenses/path-1.9.1.txt) |
+| path_parsing | 1.1.0 | [原文](third_party/licenses/path_parsing-1.1.0.txt) |
+| path_provider | 2.1.6 | [原文](third_party/licenses/path_provider-2.1.6.txt) |
+| path_provider_android | 2.3.1 | [原文](third_party/licenses/path_provider_android-2.3.1.txt) |
+| path_provider_foundation | 2.6.0 | [原文](third_party/licenses/path_provider_foundation-2.6.0.txt) |
+| path_provider_linux | 2.2.2 | [原文](third_party/licenses/path_provider_linux-2.2.2.txt) |
+| path_provider_platform_interface | 2.1.3 | [原文](third_party/licenses/path_provider_platform_interface-2.1.3.txt) |
+| path_provider_windows | 2.3.0 | [原文](third_party/licenses/path_provider_windows-2.3.0.txt) |
+| pdf | 3.13.1 | [原文](third_party/licenses/pdf-3.13.1.txt) |
+| pdf_widget_wrapper | 1.0.4 | [原文](third_party/licenses/pdf_widget_wrapper-1.0.4.txt) |
+| petitparser | 7.0.2 | [原文](third_party/licenses/petitparser-7.0.2.txt) |
+| platform | 3.2.0 | [原文](third_party/licenses/platform-3.2.0.txt) |
+| plugin_platform_interface | 2.1.8 | [原文](third_party/licenses/plugin_platform_interface-2.1.8.txt) |
+| posix | 6.5.4 | [原文](third_party/licenses/posix-6.5.4.txt) |
+| printing | 5.15.1 | [原文](third_party/licenses/printing-5.15.1.txt) |
+| pub_semver | 2.2.1 | [原文](third_party/licenses/pub_semver-2.2.1.txt) |
+| qr | 3.0.3 | [原文](third_party/licenses/qr-3.0.3.txt) |
+| record_use | 0.6.0 | [原文](third_party/licenses/record_use-0.6.0.txt) |
+| share_plus | 13.3.1 | [原文](third_party/licenses/share_plus-13.3.1.txt) |
+| share_plus_platform_interface | 7.2.0 | [原文](third_party/licenses/share_plus_platform_interface-7.2.0.txt) |
+| sky_engine | 0.0.0 | [原文](third_party/licenses/Flutter-SDK-LICENSE.txt) |
+| source_span | 1.10.2 | [原文](third_party/licenses/source_span-1.10.2.txt) |
+| sqflite | 2.4.5 | [原文](third_party/licenses/sqflite-2.4.5.txt) |
+| sqflite_android | 2.4.5 | [原文](third_party/licenses/sqflite_android-2.4.5.txt) |
+| sqflite_common | 2.5.14 | [原文](third_party/licenses/sqflite_common-2.5.14.txt) |
+| sqflite_darwin | 2.4.4+1 | [原文](third_party/licenses/sqflite_darwin-2.4.4+1.txt) |
+| sqflite_platform_interface | 2.4.3 | [原文](third_party/licenses/sqflite_platform_interface-2.4.3.txt) |
+| stack_trace | 1.12.2 | [原文](third_party/licenses/stack_trace-1.12.2.txt) |
+| stream_channel | 2.1.4 | [原文](third_party/licenses/stream_channel-2.1.4.txt) |
+| string_scanner | 1.4.1 | [原文](third_party/licenses/string_scanner-1.4.1.txt) |
+| synchronized | 3.5.0 | [原文](third_party/licenses/synchronized-3.5.0.txt) |
+| term_glyph | 1.2.2 | [原文](third_party/licenses/term_glyph-1.2.2.txt) |
+| test_api | 0.7.12 | [原文](third_party/licenses/test_api-0.7.12.txt) |
+| timezone | 0.11.2 | [原文](third_party/licenses/timezone-0.11.2.txt) |
+| typed_data | 1.4.0 | [原文](third_party/licenses/typed_data-1.4.0.txt) |
+| url_launcher | 6.3.3 | [原文](third_party/licenses/url_launcher-6.3.3.txt) |
+| url_launcher_android | 6.3.33 | [原文](third_party/licenses/url_launcher_android-6.3.33.txt) |
+| url_launcher_ios | 6.4.2 | [原文](third_party/licenses/url_launcher_ios-6.4.2.txt) |
+| url_launcher_linux | 3.2.3 | [原文](third_party/licenses/url_launcher_linux-3.2.3.txt) |
+| url_launcher_macos | 3.2.6 | [原文](third_party/licenses/url_launcher_macos-3.2.6.txt) |
+| url_launcher_platform_interface | 2.3.2 | [原文](third_party/licenses/url_launcher_platform_interface-2.3.2.txt) |
+| url_launcher_web | 2.4.3 | [原文](third_party/licenses/url_launcher_web-2.4.3.txt) |
+| url_launcher_windows | 3.1.6 | [原文](third_party/licenses/url_launcher_windows-3.1.6.txt) |
+| uuid | 4.6.0 | [原文](third_party/licenses/uuid-4.6.0.txt) |
+| vector_math | 2.4.0 | [原文](third_party/licenses/vector_math-2.4.0.txt) |
+| vm_service | 15.4.0 | [原文](third_party/licenses/vm_service-15.4.0.txt) |
+| web | 1.1.2 | [原文](third_party/licenses/web-1.1.2.txt) |
+| win32 | 6.4.0 | [原文](third_party/licenses/win32-6.4.0.txt) |
+| windows_file_picker | 2.0.1 | [原文](third_party/licenses/windows_file_picker-2.0.1.txt) |
+| xdg_directories | 1.1.0 | [原文](third_party/licenses/xdg_directories-1.1.0.txt) |
+| xml | 7.0.1 | [原文](third_party/licenses/xml-7.0.1.txt) |
+| yaml | 3.1.4 | [原文](third_party/licenses/yaml-3.1.4.txt) |
+
+日本語フォント：[OFL原文](third_party/licenses/Bundled-Japanese-Font-OFL.txt)。

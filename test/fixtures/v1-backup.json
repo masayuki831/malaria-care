@@ -1,0 +1,316 @@
+{
+  "schemaVersion": 1,
+  "profile": {
+    "name": "サンプル 花子（架空）",
+    "cohort": "2026年度1次隊",
+    "job": "コミュニティ開発",
+    "location": "ガーナ／アクラ（デモ）",
+    "start": "2026-10-01",
+    "end": "2028-09-30"
+  },
+  "mail": {
+    "to": "",
+    "subject": "マラリア予防薬服薬状況報告（{氏名}）",
+    "body": "ご担当者様\n\nマラリア予防薬の服薬状況について報告します。\n\n氏名：{氏名}\n隊次：{隊次}\n使用予防薬名：{薬名}\n報告対象期間：{期間}\n\n{残数}\n\n詳細は添付PDFをご確認ください。\nよろしくお願いいたします。",
+    "signature": ""
+  },
+  "medicines": [
+    {
+      "id": "demo-daily",
+      "name": "予防薬A（デモ）",
+      "start": "2026-10-19",
+      "end": null,
+      "initial": 30.0,
+      "memo": "架空の薬・用法です。実際の処方には使用しないでください。",
+      "reminder": true,
+      "versions": [
+        {
+          "effective": "2026-10-19",
+          "rule": {
+            "frequency": "daily",
+            "anchor": "2026-10-19",
+            "interval": 1,
+            "hour": 20,
+            "minute": 0,
+            "weekdays": [
+              1
+            ]
+          },
+          "dose": 1.0,
+          "reason": ""
+        }
+      ]
+    },
+    {
+      "id": "demo-weekly",
+      "name": "予防薬B（デモ）",
+      "start": "2026-10-19",
+      "end": null,
+      "initial": 12.0,
+      "memo": "",
+      "reminder": true,
+      "versions": [
+        {
+          "effective": "2026-10-19",
+          "rule": {
+            "frequency": "weekdays",
+            "anchor": "2026-10-19",
+            "interval": 1,
+            "hour": 8,
+            "minute": 0,
+            "weekdays": [
+              1
+            ]
+          },
+          "dose": 1.0,
+          "reason": ""
+        },
+        {
+          "effective": "2026-11-04",
+          "rule": {
+            "frequency": "weekdays",
+            "anchor": "2026-11-03",
+            "interval": 1,
+            "hour": 8,
+            "minute": 0,
+            "weekdays": [
+              2
+            ]
+          },
+          "dose": 1.0,
+          "reason": "2026-11-02予定分を2026-11-03に服薬。利用者が基準日変更を選択。"
+        }
+      ]
+    }
+  ],
+  "doses": [
+    {
+      "id": "demo-weekly@2026-10-19",
+      "medicineId": "demo-weekly",
+      "name": "予防薬B（デモ）",
+      "scheduled": "2026-10-19T08:00:00.000",
+      "quantity": 1.0,
+      "explicit": null,
+      "actual": null,
+      "confirmedAt": null,
+      "later": false,
+      "note": ""
+    },
+    {
+      "id": "demo-daily@2026-10-19",
+      "medicineId": "demo-daily",
+      "name": "予防薬A（デモ）",
+      "scheduled": "2026-10-19T20:00:00.000",
+      "quantity": 1.0,
+      "explicit": null,
+      "actual": null,
+      "confirmedAt": null,
+      "later": false,
+      "note": ""
+    },
+    {
+      "id": "demo-daily@2026-10-20",
+      "medicineId": "demo-daily",
+      "name": "予防薬A（デモ）",
+      "scheduled": "2026-10-20T20:00:00.000",
+      "quantity": 1.0,
+      "explicit": null,
+      "actual": null,
+      "confirmedAt": null,
+      "later": false,
+      "note": ""
+    },
+    {
+      "id": "demo-daily@2026-10-21",
+      "medicineId": "demo-daily",
+      "name": "予防薬A（デモ）",
+      "scheduled": "2026-10-21T20:00:00.000",
+      "quantity": 1.0,
+      "explicit": null,
+      "actual": null,
+      "confirmedAt": null,
+      "later": false,
+      "note": ""
+    },
+    {
+      "id": "demo-daily@2026-10-22",
+      "medicineId": "demo-daily",
+      "name": "予防薬A（デモ）",
+      "scheduled": "2026-10-22T20:00:00.000",
+      "quantity": 1.0,
+      "explicit": null,
+      "actual": null,
+      "confirmedAt": null,
+      "later": false,
+      "note": ""
+    },
+    {
+      "id": "demo-daily@2026-10-23",
+      "medicineId": "demo-daily",
+      "name": "予防薬A（デモ）",
+      "scheduled": "2026-10-23T20:00:00.000",
+      "quantity": 1.0,
+      "explicit": null,
+      "actual": null,
+      "confirmedAt": null,
+      "later": false,
+      "note": ""
+    },
+    {
+      "id": "demo-daily@2026-10-24",
+      "medicineId": "demo-daily",
+      "name": "予防薬A（デモ）",
+      "scheduled": "2026-10-24T20:00:00.000",
+      "quantity": 1.0,
+      "explicit": null,
+      "actual": null,
+      "confirmedAt": null,
+      "later": false,
+      "note": ""
+    },
+    {
+      "id": "demo-daily@2026-10-25",
+      "medicineId": "demo-daily",
+      "name": "予防薬A（デモ）",
+      "scheduled": "2026-10-25T20:00:00.000",
+      "quantity": 1.0,
+      "explicit": null,
+      "actual": null,
+      "confirmedAt": null,
+      "later": false,
+      "note": ""
+    },
+    {
+      "id": "demo-weekly@2026-10-26",
+      "medicineId": "demo-weekly",
+      "name": "予防薬B（デモ）",
+      "scheduled": "2026-10-26T08:00:00.000",
+      "quantity": 1.0,
+      "explicit": null,
+      "actual": null,
+      "confirmedAt": null,
+      "later": false,
+      "note": ""
+    },
+    {
+      "id": "demo-daily@2026-10-26",
+      "medicineId": "demo-daily",
+      "name": "予防薬A（デモ）",
+      "scheduled": "2026-10-26T20:00:00.000",
+      "quantity": 1.0,
+      "explicit": null,
+      "actual": null,
+      "confirmedAt": null,
+      "later": false,
+      "note": ""
+    },
+    {
+      "id": "demo-daily@2026-10-27",
+      "medicineId": "demo-daily",
+      "name": "予防薬A（デモ）",
+      "scheduled": "2026-10-27T20:00:00.000",
+      "quantity": 1.0,
+      "explicit": null,
+      "actual": null,
+      "confirmedAt": null,
+      "later": false,
+      "note": ""
+    },
+    {
+      "id": "demo-daily@2026-10-28",
+      "medicineId": "demo-daily",
+      "name": "予防薬A（デモ）",
+      "scheduled": "2026-10-28T20:00:00.000",
+      "quantity": 1.0,
+      "explicit": null,
+      "actual": null,
+      "confirmedAt": null,
+      "later": false,
+      "note": ""
+    },
+    {
+      "id": "demo-daily@2026-10-29",
+      "medicineId": "demo-daily",
+      "name": "予防薬A（デモ）",
+      "scheduled": "2026-10-29T20:00:00.000",
+      "quantity": 1.0,
+      "explicit": null,
+      "actual": null,
+      "confirmedAt": null,
+      "later": false,
+      "note": ""
+    },
+    {
+      "id": "demo-daily@2026-10-30",
+      "medicineId": "demo-daily",
+      "name": "予防薬A（デモ）",
+      "scheduled": "2026-10-30T20:00:00.000",
+      "quantity": 1.0,
+      "explicit": null,
+      "actual": null,
+      "confirmedAt": null,
+      "later": false,
+      "note": ""
+    },
+    {
+      "id": "demo-daily@2026-10-31",
+      "medicineId": "demo-daily",
+      "name": "予防薬A（デモ）",
+      "scheduled": "2026-10-31T20:00:00.000",
+      "quantity": 1.0,
+      "explicit": null,
+      "actual": null,
+      "confirmedAt": null,
+      "later": false,
+      "note": ""
+    },
+    {
+      "id": "demo-daily@2026-11-01",
+      "medicineId": "demo-daily",
+      "name": "予防薬A（デモ）",
+      "scheduled": "2026-11-01T20:00:00.000",
+      "quantity": 1.0,
+      "explicit": "confirmed",
+      "actual": "2026-11-01T20:03:00.000",
+      "confirmedAt": "2026-11-03T09:00:00.000",
+      "later": false,
+      "note": ""
+    },
+    {
+      "id": "demo-weekly@2026-11-02",
+      "medicineId": "demo-weekly",
+      "name": "予防薬B（デモ）",
+      "scheduled": "2026-11-02T08:00:00.000",
+      "quantity": 1.0,
+      "explicit": "confirmed",
+      "actual": "2026-11-03T08:00:00.000",
+      "confirmedAt": "2026-11-03T09:00:00.000",
+      "later": false,
+      "note": ""
+    },
+    {
+      "id": "demo-daily@2026-11-02",
+      "medicineId": "demo-daily",
+      "name": "予防薬A（デモ）",
+      "scheduled": "2026-11-02T20:00:00.000",
+      "quantity": 1.0,
+      "explicit": null,
+      "actual": null,
+      "confirmedAt": null,
+      "later": false,
+      "note": ""
+    }
+  ],
+  "refills": [
+    {
+      "id": "sample-refill",
+      "medicineId": "demo-daily",
+      "date": "2026-10-30",
+      "quantity": 30.0,
+      "note": "追加処方（サンプル）"
+    }
+  ],
+  "nextDay": true,
+  "checkHour": 8,
+  "checkMinute": 0
+}

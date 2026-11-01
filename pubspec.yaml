@@ -1,0 +1,35 @@
+name: malaria_care
+description: マラリア予防薬の端末内服用・在庫・報告管理
+publish_to: none
+version: 0.8.0+15
+environment:
+  sdk: '>=3.13.0 <4.0.0'
+  flutter: '>=3.44.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  sqflite: ^2.4.5
+  path: ^1.9.1
+  flutter_local_notifications:
+    path: vendor/fln
+  flutter_timezone: ^5.1.1
+  timezone: ^0.11.2
+  pdf: ^3.13.1
+  printing: ^5.15.1
+  share_plus: ^13.3.1
+  file_picker: ^13.3.0
+  flutter_email_sender: ^11.2.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/fonts/NotoSansJP-Regular.ttf
+  fonts:
+    - family: NotoSansJP
+      fonts:
+        - asset: assets/fonts/NotoSansJP-Regular.ttf
+

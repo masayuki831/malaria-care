@@ -1,0 +1,31 @@
+name: Build iOS simulator app
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: macos-15
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.47.9'
+          channel: stable
+          cache: true
+      - run: xcodebuild -version
+      - run: flutter config --enable-swift-package-manager
+      - run: flutter pub get --enforce-lockfile
+      - run: flutter test test/ios_platform_test.dart --reporter expanded
+      - run: flutter build ios --simulator --debug
+      - name: Archive simulator app (not installable on an iPhone)
+        run: ditto -c -k --sequesterRsrc --keepParent build/ios/iphonesimulator/Runner.app MalariaCare-iOS-Simulator.zip
+      - uses: actions/upload-artifact@v4
+        with:
+          name: MalariaCare-iOS-Simulator
+          path: MalariaCare-iOS-Simulator.zip
+          if-no-files-found: error
+          retention-days: 14
